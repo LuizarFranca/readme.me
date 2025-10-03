@@ -16,10 +16,12 @@ Já o SaaS, os fornecedores SaaS disponibilizam aplicações de software executa
 
 - Modelos de implantação em nuvem:
 
--Nuvem
+Nuvem
  Uma aplicação baseada na nuvem é totalmente implantada na nuvem e todos os aspectos da aplicação são executados nela. As aplicações na nuvem foram criadas nela ou foram migradas de uma infraestrutura existente para aproveitarem os benefícios da computação em nuvem.
--Híbrida
+ 
+Híbrida
 Uma implantação híbrida é uma maneira de conectar infraestrutura e aplicações entre recursos da Web e recursos atuais que não se encontram na nuvem.
--On-premises
+
+On-premises
 A implantação de recursos on-premises, usando a virtualização e fornecendo ferramentas de gerenciamento de recursos, não oferece muitos dos benefícios de computação em nuvem, mas, às vezes, é procurada por sua capacidade de fornecer recursos dedicados. Na maioria dos casos, este modelo de implantação é igual à infraestrutura de TI antiga, pois usa tecnologias de gerenciamento e virtualização de aplicações para tentar aumentar a utilização de recursos.
 
