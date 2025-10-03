@@ -36,3 +36,8 @@ Uma implantação híbrida é uma maneira de conectar infraestrutura e aplicaç�
 - On-premises
 A implantação de recursos on-premises, usando a virtualização e fornecendo ferramentas de gerenciamento de recursos, não oferece muitos dos benefícios de computação em nuvem, mas, às vezes, é procurada por sua capacidade de fornecer recursos dedicados. Na maioria dos casos, este modelo de implantação é igual à infraestrutura de TI antiga, pois usa tecnologias de gerenciamento e virtualização de aplicações para tentar aumentar a utilização de recursos.
 
+Computação na Nuvem com EC2
+
+O Amazon EC2 oferece uma ampla seleção de tipos de instâncias otimizadas para atender a diferentes casos de uso. Os tipos de instâncias consistem em várias combinações de CPU, memória, armazenamento e capacidade de rede e oferecem flexibilidade de escolha da composição adequada de recursos para os seus aplicativos.
+O EC2 permite a implantação de aplicações ao prover um Web service através do qual um usuário pode iniciar uma Amazon Machine Image para criar uma máquina virtual, que a Amazon chama uma "instância", contendo qualquer software desejado.
+As Instancias fornecem um equilíbrio de recursos de computação, memória e rede e podem ser usadas para diversas cargas de trabalho. Essas instâncias são ideais para aplicações como servidores web e repositórios de código. 
