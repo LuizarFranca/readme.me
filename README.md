@@ -56,3 +56,7 @@ Vá para a guia EC2, caso não encontre, pode realizar pesquisa por "EC2" na se�
 Em seguida começará a ver as instancias ja alocadas na sua conta. Clique em iniciar Instacia para que comece a configurar.
 
 Selecione uma imagem de maquina virtual da Amazon (AMI), ja pré configurada com o software que precisa. Ao escolher uma AMI, está escolhendo o KIT Inicial para sua instancia, semelhando ao aluguel de um computador com sistema operacional Linux ou Windows instalado.
+
+Em seguida, escolha um tipo de instância conforme sua carga de trabalho. O AWS oferece vários tipos, como T2 para desempenho de uso geral e expansível ou C5 para tarefas de computação intensiva. Nesta etapa é ncessario analisar cada item sobre as especificações de hardware do computador alugado e o quanto ele deve ser potente em termos de CPU, memória e desempenho de rede.
+
+Em seguida configure chave privada e uma publica para segurança da instancia. Isso permitirá se conectar via SSH ou Remote desktop.
