@@ -48,3 +48,11 @@ As Instancias fornecem um equilíbrio de recursos de computação, memória e re
 
 - Enquanto o Lambda é uma plataforma sem servidor que executa seu código em resposta a eventos sem que você precise se preocupar com os servidores subjacentes.
   
+Gerenciando EC2 instâncias da Amazon
+
+Iniciando uma instância do EC2
+
+Vá para a guia EC2, caso não encontre, pode realizar pesquisa por "EC2" na seção Pesquisar no canto superior direito do seu portal Amazon AWS ou selecionando-o entre os serviços no Console Início.
+Em seguida começará a ver as instancias ja alocadas na sua conta. Clique em iniciar Instacia para que comece a configurar.
+
+Selecione uma imagem de maquina virtual da Amazon (AMI), ja pré configurada com o software que precisa. Ao escolher uma AMI, está escolhendo o KIT Inicial para sua instancia, semelhando ao aluguel de um computador com sistema operacional Linux ou Windows instalado.
