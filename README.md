@@ -74,4 +74,4 @@ Crie uma conta AWS e faça login na AWS.
 - Abra seu arquivo rdp. Clique em continuar. Se o seu computador local for um Mac, você precisará baixar o "Microsoft Remote Desktop" da App Store para poder abrir seu arquivo rdp.
 - Digite a senha, após digitar sua senha, aparecerá a tela do windows ou outro sistema operacional da escolha.
   
-- 
+  
