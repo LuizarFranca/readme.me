@@ -60,3 +60,9 @@ Selecione uma imagem de maquina virtual da Amazon (AMI), ja pré configurada com
 Em seguida, escolha um tipo de instância conforme sua carga de trabalho. O AWS oferece vários tipos, como T2 para desempenho de uso geral e expansível ou C5 para tarefas de computação intensiva. Nesta etapa é ncessario analisar cada item sobre as especificações de hardware do computador alugado e o quanto ele deve ser potente em termos de CPU, memória e desempenho de rede.
 
 Em seguida configure chave privada e uma publica para segurança da instancia. Isso permitirá se conectar via SSH ou Remote desktop.
+
+Decida onde sua instancia ficará selecionando uma nuvem privada virtual e uma sub-rede. Isso determina se a instancia obtem um endereço publico ou se será privado.
+
+Configurar os grupos de segurança (Create security group), os grupos funcionam como firewall. Neste local será definido as regras que controlam os acessos a instancia.
+
+Ao anexar volumes de armazenamento a sua instacia como EBS,que funcionam como disco rigidos, isto é como configurar o armarzenamento do seu computador. Pode-se adcionar tags para facilitar na identificação e gerenciamento.
