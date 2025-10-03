@@ -69,7 +69,7 @@ Crie uma conta AWS e faça login na AWS.
 - Clique em "Conectar".
 - Clique em "Baixar Arquivo da Área de Trabalho Remota". Salve o arquivo da área de trabalho remota (rdp) em um local seguro.
 - Clique em "Obter Senha". Lembre-se de que você precisa aguardar pelo menos 4 minutos após iniciar uma instância antes de tentar recuperar sua senha.
-- Selecione o arquivo pem que você baixou na etapa 7 e clique em "Descriptografar Senha".
+- Selecione o arquivo pem que você baixou e clique em "Descriptografar Senha".
 - Após descriptografar sua senha, salve-a em um local seguro. Você precisará dela para fazer login na sua instância.
 - Abra seu arquivo rdp. Clique em continuar. Se o seu computador local for um Mac, você precisará baixar o "Microsoft Remote Desktop" da App Store para poder abrir seu arquivo rdp.
 - Digite a senha, após digitar sua senha, aparecerá a tela do windows ou outro sistema operacional da escolha.
