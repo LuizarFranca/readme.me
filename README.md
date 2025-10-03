@@ -66,3 +66,5 @@ Decida onde sua instancia ficará selecionando uma nuvem privada virtual e uma s
 Configurar os grupos de segurança (Create security group), os grupos funcionam como firewall. Neste local será definido as regras que controlam os acessos a instancia.
 
 Ao anexar volumes de armazenamento a sua instacia como EBS,que funcionam como disco rigidos, isto é como configurar o armarzenamento do seu computador. Pode-se adcionar tags para facilitar na identificação e gerenciamento.
+
+Por fim, revisa a configuração da sua instância para garantir que tudo esteja configurado corretamente. Clique em Launch para iniciar a instancia. Confirme que novamente as configuração do computador antes de liga-lo.
