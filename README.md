@@ -52,19 +52,26 @@ Gerenciando EC2 instâncias da Amazon
 
 Iniciando uma instância do EC2
 
-Vá para a guia EC2, caso não encontre, pode realizar pesquisa por "EC2" na seção Pesquisar no canto superior direito do seu portal Amazon AWS ou selecionando-o entre os serviços no Console Início.
-Em seguida começará a ver as instancias ja alocadas na sua conta. Clique em iniciar Instacia para que comece a configurar.
+Crie uma conta AWS e faça login na AWS.
 
-Selecione uma imagem de maquina virtual da Amazon (AMI), ja pré configurada com o software que precisa. Ao escolher uma AMI, está escolhendo o KIT Inicial para sua instancia, semelhando ao aluguel de um computador com sistema operacional Linux ou Windows instalado.
-
-Em seguida, escolha um tipo de instância conforme sua carga de trabalho. O AWS oferece vários tipos, como T2 para desempenho de uso geral e expansível ou C5 para tarefas de computação intensiva. Nesta etapa é ncessario analisar cada item sobre as especificações de hardware do computador alugado e o quanto ele deve ser potente em termos de CPU, memória e desempenho de rede.
-
-Em seguida configure chave privada e uma publica para segurança da instancia. Isso permitirá se conectar via SSH ou Remote desktop.
-
-Decida onde sua instancia ficará selecionando uma nuvem privada virtual e uma sub-rede. Isso determina se a instancia obtem um endereço publico ou se será privado.
-
-Configurar os grupos de segurança (Create security group), os grupos funcionam como firewall. Neste local será definido as regras que controlam os acessos a instancia.
-
-Ao anexar volumes de armazenamento a sua instacia como EBS,que funcionam como disco rigidos, isto é como configurar o armarzenamento do seu computador. Pode-se adcionar tags para facilitar na identificação e gerenciamento.
-
-Por fim, revisa a configuração da sua instância para garantir que tudo esteja configurado corretamente. Clique em Launch para iniciar a instancia. Confirme que novamente as configuração do computador antes de liga-lo.
+- No painel do EC2, clique em EC2, caso não encontre, pode realizar pesquisa por "EC2" na seção Pesquisar do seu portal Amazon AWS.
+- Em seguida, no console do Amazon EC2,  começará a ver as instancias ja alocadas na sua conta, para o caso ja tenha configurado. Clique em iniciar instância (Launch Instance) para configurar uma nova.
+- Selecione uma imagem de maquina virtual da Amazon (AMI), ja pré configurada com o software que precisa. Ao escolher uma AMI, está escolhendo o KIT Inicial para sua instância, semelhante ao aluguel de um computador com sistema operacional Linux ou Windows instalado.
+ - Em seguida, escolha um tipo de instância conforme sua carga de trabalho. O AWS oferece vários tipos, como T2 (certifique-se de que t2 micro (tipo de instância gratuita) esteja selecionado.) para desempenho de uso geral e expansível ou C5 para tarefas de computação intensiva. Nesta etapa é ncessario analisar cada item sobre as especificações de hardware do computador alugado e o quanto ele deve ser potente em termos de CPU, memória e desempenho de rede.
+- Em seguida configure chave privada e uma publica para segurança da instancia. Isso permitirá se conectar via SSH ou Remote desktop.
+- Decida onde sua instancia ficará selecionando uma nuvem privada virtual e uma sub-rede. Isso determina se a instancia obtem um endereço publico ou se será privado.
+- Configurar os grupos de segurança (Create security group), os grupos funcionam como firewall. Neste local será definido as regras que controlam os acessos a instancia.
+- Ao anexar volumes de armazenamento a sua instacia como EBS,que funcionam como disco rigidos, isto é como configurar o armarzenamento do seu computador. Pode-se adcionar tags para facilitar na identificação e gerenciamento.
+- Por fim, revisa a configuração da sua instância para garantir que tudo esteja configurado corretamente. Clique em Launch para iniciar a instancia. Confirme que novamente as configuração do computador antes de liga-lo.
+- Em seguida, clique em "Launch Instances"
+- A instância está iniciada. Retorne ao console do Amazon EC2.
+- Aguarde até que o "Estado da Instância" esteja em execução antes de prosseguir para a próxima etapa. Isso pode levar alguns minutos.
+- Clique em "Conectar".
+- Clique em "Baixar Arquivo da Área de Trabalho Remota". Salve o arquivo da área de trabalho remota (rdp) em um local seguro.
+- Clique em "Obter Senha". Lembre-se de que você precisa aguardar pelo menos 4 minutos após iniciar uma instância antes de tentar recuperar sua senha.
+- Selecione o arquivo pem que você baixou na etapa 7 e clique em "Descriptografar Senha".
+- Após descriptografar sua senha, salve-a em um local seguro. Você precisará dela para fazer login na sua instância.
+- Abra seu arquivo rdp. Clique em continuar. Se o seu computador local for um Mac, você precisará baixar o "Microsoft Remote Desktop" da App Store para poder abrir seu arquivo rdp.
+- Digite a senha, após digitar sua senha, aparecerá a tela do windows ou outro sistema operacional da escolha.
+  
+- 
