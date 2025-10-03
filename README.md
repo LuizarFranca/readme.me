@@ -46,3 +46,5 @@ As Instancias fornecem um equilíbrio de recursos de computação, memória e re
 
 - Além do armazenamento em blocos por meio do Amazon EBS ou de instâncias, também pode ser usado o Simple Storage Service (Amazon S3) para obter um armazenamento de objetos altamente durável e altamente disponível. O S3 fornece acesso a uma infraestrutura de armazenamento de dados confiável e de baixo custo. Ele foi criado para facilitar a computação em web, permitindo que armazene e recupere qualquer quantidade de dados, a qualquer momento, de dentro do Amazon EC2.
 
+- Enquanto o Lambda é uma plataforma sem servidor que executa seu código em resposta a eventos sem que você precise se preocupar com os servidores subjacentes.
+  
